@@ -1,4 +1,5 @@
 A basic game to practice with objects, functions and event handlers and event listeners
+
 Part of a bootcamp curriculum
 
 
