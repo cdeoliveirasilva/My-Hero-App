@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link href="lib/mocha.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+
+  <!-- 👍 YOUR HTML HERE 👍 -->
+
+  <main>
+  <img onclick="rest()" id="inn" src="https://cdn1.iconfinder.com/data/icons/ninja-cartoon/512/g2417-512.png">
+
+  <img onclick="displayStats()" id="myHero" src="https://cdn0.iconfinder.com/data/icons/coloricons/50/50X50-15-512.png">
+
+  <img onclick="pickUpItem()" id="dagger" src= "https://cdn1.iconfinder.com/data/icons/ninja-cartoon/512/g2428-512.png" >
+
+  <img onclick="equipWeapon()" id="bag" src="https://cdn1.iconfinder.com/data/icons/christmas-cartoon-3/512/sim2552-512.png">
+  </main>
+  <h1>Welcome to the hero app! (unfinished, yay)</h1>
+  
+  <p>Click on the temple to restore health, 
+    on the hero icon to display your stats, 
+    on the weapon to pick up weapon, 
+    and on the bag to pick first weapon from inventory (in theory...)</p>
+  
+  <h2>Not everything might work, and I'm sorry (I tried)</h2>
+
+  <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
+  <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>
+
+  <div id="mocha">
+  <!-- MOCHA TEST FEEDBACK WILL BE RENDERED HERE -->
+  </div>
+
+  <script src="lib/chai.js"></script>
+  <script src="lib/mocha.js"></script>
+  <script src="lib/sinon.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script src="YOUR_JAVASCRIPT_HERE.js"></script>
+  <script src="lib/game_logic.test.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+main{
+  width: 600px;
+  height: 200px;
+  background: url('https://themonktech.com/wp-content/uploads/2013/03/landscape-5-800x400.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+h1{
+  max-width: 650;
+  height: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+  color: maroon
+}
+
+h2{
+  max-width: 650;
+  height: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 12px;
+  color: black
+}
+
+p{
+  max-width: 600;
+  height: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
